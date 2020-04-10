@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(/img/bg.jpg);
+    background: url(../img/bg.jpg);
     font-family: 'Bad Script', cursive;
     display: flex;
     justify-content: space-around;
