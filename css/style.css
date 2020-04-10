@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/bg.jpg);
+    background: url(../img/bg.jpg) no-repeat center / cover;
     font-family: 'Bad Script', cursive;
     display: flex;
     justify-content: space-around;
@@ -19,6 +19,7 @@ body {
 * {
     outline: none;
     font-family: 'Bad Script', cursive;
+    opacity: 1;
 }
 
 .main {
@@ -92,6 +93,10 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+    body {
+        height: 100vh;
+    }
+    
     .main {
         height: 750px;
         width: 750px;
@@ -103,6 +108,39 @@ body {
 
     .level, .hint {
         font-size: 55px;
+        bottom: 30px;
+    }
+
+    .level {
+        margin-right: 70px;
+    }
+
+    .btn-restart, .switch-mode {
+        font-size: 50px;
+    }
+
+    .btn-restart:hover, .switch-mode:hover {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        height: 100vh;
+    }
+    
+    .main {
+        height: 750px;
+        width: 750px;
+    }
+
+    .cell {
+        font-size: 90px;
+    }
+
+    .level, .hint {
+        font-size: 55px;
+        bottom: 30px;
     }
 
     .level {
