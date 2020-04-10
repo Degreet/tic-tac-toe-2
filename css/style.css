@@ -106,9 +106,10 @@ body {
         font-size: 90px;
     }
 
-    .level, .hint {
+    .hint, .level {
         font-size: 55px;
-        bottom: 30px;
+        position: relative;
+        bottom: 50px;
     }
 
     .level {
@@ -138,9 +139,8 @@ body {
         font-size: 90px;
     }
 
-    .level, .hint {
+    .hint, .level {
         font-size: 55px;
-        bottom: 30px;
     }
 
     .level {
