@@ -104,6 +104,8 @@ html {
     .main {
         height: 750px;
         width: 750px;
+        position: relative;
+        bottom: 108px;
     }
 
     .cell {
@@ -113,7 +115,7 @@ html {
     .hint, .level {
         font-size: 55px;
         position: relative;
-        bottom: 120px;
+        bottom: 245px;
     }
 
     .level {
@@ -137,6 +139,8 @@ html {
     .main {
         height: 750px;
         width: 750px;
+        position: relative;
+        bottom: 108px;
     }
 
     .cell {
@@ -146,7 +150,7 @@ html {
     .hint, .level {
         font-size: 55px;
         position: relative;
-        bottom: 120px;
+        bottom: 245px;
     }
 
     .level {
