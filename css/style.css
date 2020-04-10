@@ -11,6 +11,10 @@ body {
     --color: #000;
 }
 
+html {
+    overflow: hidden;
+}
+
 .hints {
     display: flex;
     flex-direction: row;
@@ -109,7 +113,7 @@ body {
     .hint, .level {
         font-size: 55px;
         position: relative;
-        bottom: 90px;
+        bottom: 120px;
     }
 
     .level {
@@ -142,7 +146,7 @@ body {
     .hint, .level {
         font-size: 55px;
         position: relative;
-        bottom: 90px;
+        bottom: 120px;
     }
 
     .level {
