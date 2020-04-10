@@ -109,7 +109,7 @@ body {
     .hint, .level {
         font-size: 55px;
         position: relative;
-        bottom: 50px;
+        bottom: 90px;
     }
 
     .level {
@@ -141,6 +141,8 @@ body {
 
     .hint, .level {
         font-size: 55px;
+        position: relative;
+        bottom: 90px;
     }
 
     .level {
