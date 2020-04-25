@@ -32,25 +32,21 @@ msg.innerText = "Ваш ход"
 
 function player() {
     if (turn !== "player") return;
-
+    
     let row = this.dataset.row
     let col = this.dataset.col
     let val = gameState[row][col]
-
+    
     if (val !== " ") {
         return;
     } else {
-        gameState[row][col] = "X";
+        gameState[row][col] = "X"
     }
 
     msg.innerText = "Ход врага"
-
     render()
-
     turn = "opponent"
-
     if (checkWinner()) return
-
     setTimeout(opponent, 800)
 }
 
